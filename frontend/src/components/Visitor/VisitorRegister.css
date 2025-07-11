@@ -1,0 +1,140 @@
+.visitor-register {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #c8e6c9, #a5d6a7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-card {
+  background: white;
+  padding: 40px 35px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  animation: slideIn 0.5s ease-in-out;
+}
+
+.register-card h2 {
+  margin-bottom: 10px;
+  color: #1b5e20;
+  font-size: 28px;
+}
+
+.register-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.visitor-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.visitor-form input,
+.visitor-form select {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+  background-color: #fff;
+  appearance: none; /* Removes default OS styles */
+}
+
+.visitor-form input:focus,
+.visitor-form select:focus {
+  border: 1px solid #388e3c;
+  box-shadow: 0 0 5px rgba(56, 142, 60, 0.4);
+}
+
+.visitor-form select {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 18px 18px;
+}
+
+.visitor-form option {
+  font-size: 16px;
+  color: #333;
+}
+
+.visitor-form button {
+  background-color: #43a047;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.visitor-form button:hover {
+  background-color: #2e7d32;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.badge {
+  background: #f1f8e9;
+  border: 2px dashed #7cb342;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  animation: slideIn 0.5s ease-in-out;
+}
+
+.badge h2 {
+  text-align: center;
+  color: #558b2f;
+  margin-bottom: 15px;
+}
+
+.badge p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.success-message {
+  text-align: center;
+  color: #388e3c;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.badge button {
+  display: block;
+  margin: 15px auto 0 auto;
+  background-color: #43a047;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.badge button:hover {
+  background-color: #2e7d32;
+}
+

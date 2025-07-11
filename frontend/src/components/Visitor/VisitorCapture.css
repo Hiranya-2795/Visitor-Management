@@ -1,0 +1,151 @@
+.visitor-capture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  height: 100vh;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.visitor-capture h2 {
+  color: #0d47a1;
+  margin-bottom: 20px;
+}
+
+video,
+.captured-img {
+  border: 4px solid #1976d2;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  max-width: 720px;
+  width: 90%;
+  height: auto;
+}
+
+.capture-btn,
+.retry-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.capture-btn {
+  background-color: #1976d2;
+  color: white;
+}
+
+.capture-btn:hover {
+  background-color: #0d47a1;
+}
+
+.retry-btn {
+  background-color: #ff7043;
+  color: white;
+}
+
+.retry-btn:hover {
+  background-color: #e64a19;
+}
+
+.error-msg {
+  margin-top: 20px;
+  font-size: 16px;
+  color: red;
+  font-weight: bold;
+}
+.visitor-capture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  height: 100vh;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.visitor-capture h2 {
+  color: #0d47a1;
+  margin-bottom: 20px;
+}
+
+video,
+.captured-img {
+  border: 4px solid #1976d2;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  max-width: 720px;
+  width: 90%;
+  height: auto;
+}
+
+.capture-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.capture-btn:hover {
+  background-color: #0d47a1;
+}
+
+.status-msg {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.status-msg.found {
+  color: green;
+}
+
+.status-msg.not-found {
+  color: red;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.retry-btn,
+.checkin-btn,
+.checkout-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.retry-btn {
+  background-color: #ff7043;
+  color: white;
+}
+
+.retry-btn:hover {
+  background-color: #e64a19;
+}
+
+.checkin-btn,
+.checkout-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.checkin-btn:hover,
+.checkout-btn:hover {
+  background-color: #388e3c;
+}

@@ -1,0 +1,73 @@
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #f3e5f5, #e1bee7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.feedback-container h2 {
+  font-size: 28px;
+  color: #6a1b9a;
+  margin-bottom: 20px;
+}
+
+.feedback-form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-form textarea {
+  width: 100%;
+  height: 150px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.feedback-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.speak-btn,
+.submit-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.speak-btn {
+  background-color: #7b1fa2;
+}
+
+.speak-btn:hover {
+  background-color: #6a1b9a;
+}
+
+.submit-btn {
+  background-color: #4caf50;
+}
+
+.submit-btn:hover {
+  background-color: #388e3c;
+}
+
+.listening-msg {
+  margin-top: 15px;
+  color: #6a1b9a;
+  font-weight: bold;
+  text-align: center;
+}
